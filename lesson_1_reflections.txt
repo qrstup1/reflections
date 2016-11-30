@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	By using the “diff” in the command prompt, I was able to see the + and - for
+	each change that was made to the file. It was easy to spot the typo with these
+	prompts.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	It would allow me to compare versions and find out where I caused the bug/error
+	without manually saving the different versions. Pretty useful.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Pros are that you can select the change significance and size to make sure that
+	you get the most bang for a commit. On the con you may get code lock and not
+	conduct commits frequent enough to understand the change history.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This was probably because coding is a unique saving challenge that deserved
+		a specific process for managing changes to code of several files. This is not
+		the case typically for the creation of a ppt or docx.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    First in the command we used git clone followed by the url for the files to
+		clone to the current working directory. Then using git log I was able to see
+		the history of changes. With git diff with the commit id, I was able to see
+		the exact changes between versions.
+		Four commands were
+		git diff
+		git clone
+		git checkout
+		git log
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Well I would fee much more confident to make changes if I was incrementally
+		building a page/program using commits. Breaking something would not really
+		be a worry because I could easily go back, find, and fix my errors.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will be using Git to commit changes to my code, which will allow me to
+		become a more adventurous coder!

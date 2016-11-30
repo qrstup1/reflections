@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+  git init creates a file called .git within the directory. This allows for the
+  meta data for each version to be saved, which will allow for recall later
+  if I need it. Without this init process, the data relating to the commits would
+  not have a place to live.
+  git status showed the current status of git, branch, working directory, number
+  of commits and a listing of files being tracked.
+
+  git add ____ allows for adding a file to the staging area.
+  git commit____ will then commit the file. 
