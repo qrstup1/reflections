@@ -4,8 +4,64 @@ What happens when you initialize a repository? Why do you need to do it?
   meta data for each version to be saved, which will allow for recall later
   if I need it. Without this init process, the data relating to the commits would
   not have a place to live.
+
   git status showed the current status of git, branch, working directory, number
   of commits and a listing of files being tracked.
 
   git add ____ allows for adding a file to the staging area.
-  git commit____ will then commit the file. 
+  git commit____ will then commit the file.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+  The staging area is held in the .git area and is only temporarily there to hold
+  data that is planned to be committed later. The staging area allows for working
+  on a single file or a few files without altering, or creating a commit record
+  for other files within the working directory.
+
+  git diff will also compare the working files with what is in the staging area
+
+  git diff --staged will allow a comparison between the repository and the
+  staging area.
+
+  git reset --hard will eliminate the changes that were made to all files in the
+  working directory or the staging area.
+
+  git checkout master re-attaches the head and allows working on the master commit
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  By comparing the staging area prior to a commit it is easy to see the incremental
+  changes that occur while creating a program.
+
+  git branch will display what branch is selected and what active branches are
+  available.
+
+  git branch _______ will create a new branch as labeled.
+
+  checkout ______ with the branch label will switch to the branch.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+  For creating different potential solutions to a problem or program display path
+  Branches with commits will allow for an easy method to jump between the code
+  for each of the paths.
+
+How do the diagrams help you visualize the branch structure?
+
+  They clarify what is reachable and give a quick reference understanding of
+  what the working paths are at this time.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+  It uses each branches code and merges it. The visual representation provides
+  a great visual representation.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+  It saves time for standard merges while allowing me to look over more complex
+  ones.
